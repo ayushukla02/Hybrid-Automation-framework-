@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the Git repository to the workspace
-                git url: 'https://github.com/rakesh-vardan/Learn_TestAutomationFramework', branch: 'main'
+                git url: 'https://github.com/ayushukla02/Hybrid-Automation-framework-', branch: 'main'
             }
         }
 
